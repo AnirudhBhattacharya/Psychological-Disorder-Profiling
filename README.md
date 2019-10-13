@@ -1,1 +1,5 @@
-# Sentiment_Analysis_using_ML
+# Psychological_Disorder_Profiling
+
+Analyzing a person's online behavior to identify the disorder he might be suffering from was the idea of this project. Increased hate crimes, online trolls, depressive posts has inspired us to psychologically profile users based on what they post online.
+In this project we have collected user tweets from Twitter based on various hashtags such as #Anxiety, #Depression, #OCD, #Bipolar. Twitter was selected as a data source due to its easy accessibility, precise and consice tweets and availability of hashtags which makes data segregation at source very efficient.
+This project was partially implemented till Sentiment Analysis of a particular user based on the Affinity score of his/her tweet. Google Tags mechanism is used to extract raw data from Twitter in the form of hashtag based tweets. Python Pandas library is primarily used in formatting raw data into panda dataframes and further management of data from code perspective. Various Machine Learning algorithms such as SVM, Random Forest and Logistics Regression are implemented through scikit-learn python library to analyze the predictive accuracy of the model. 
